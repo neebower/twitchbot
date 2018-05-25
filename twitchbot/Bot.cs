@@ -43,7 +43,7 @@ namespace twitchbot
             api.Settings.AccessToken = TwitchInfo.BotTokenRefresh;
 
             Thread myThread1 = new Thread(new ParameterizedThreadStart(Spam));
-            myThread1.Start(" https://vk.com/da_kingo - подпишись на группу Вконтакте и будь в курсе последних событий");
+            myThread1.Start(" https://site - подпишись на группу Вконтакте и будь в курсе последних событий");
 
             Thread myThread2 = new Thread(new ParameterizedThreadStart(Spam));
             myThread2.Start("Поддержи стримера. Подпишись на канал Kappa");
@@ -57,7 +57,7 @@ namespace twitchbot
             {
                 case "!vk":
                     {
-                        SendMessage("Подписывайтесь на мою группу Вконтакте: https://vk.com/da_kingo");
+                        SendMessage("Подписывайтесь на мою группу Вконтакте: https://site");
                         break;
                     }
                 case "!pc":
@@ -72,12 +72,12 @@ namespace twitchbot
                     }
                 case "!donate":
                     {
-                        SendMessage("Поддержать меня вы можете по этой ссылке: https://streamlabs.com/da_kingo");
+                        SendMessage("Поддержать меня вы можете по этой ссылке: https://site");
                         break;
                     }
                 case "!youtube":
                     {
-                        SendMessage("https://www.youtube.com/channel/UCgI8i7aV0QIE6AZvWTaGSuA?view_as=subscriber");
+                        SendMessage("https://site");
                         break;
                     }
                 case "!uptime":
@@ -445,6 +445,8 @@ namespace twitchbot
         {
             
             string str = x as string;
+            
+            //very bad)
             int mult = str.StartsWith("Поддер") ? 28 : 30;
             for (; ; )
             {
