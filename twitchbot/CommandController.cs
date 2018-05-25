@@ -22,8 +22,8 @@ namespace twitchbot
 
             commands = new List<Command>()
             {
-                new Command("!vk", "Ссылка на группу ВК", x => "Подписывайтесь на мою группу Вконтакте: https://vk.com/da_kingo"),
-                new Command("!donate", "Поддержка донатом", x => "Поддержать меня вы можете по этой ссылке: https://streamlabs.com/da_kingo")
+                new Command("!vk", "Ссылка на группу ВК", x => "Подписывайтесь на мою группу Вконтакте: https://site"),
+                new Command("!donate", "Поддержка донатом", x => "Поддержать меня вы можете по этой ссылке: https://site")
             };
 
             serializer.Serialize(commands);
