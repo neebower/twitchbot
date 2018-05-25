@@ -118,18 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BotToken" xml:space="preserve">
-    <value>5or5p88vhsd04wzuhnirg9ibxbmi5o</value>
+    <value>null</value>
   </data>
   <data name="BotTokenRefresh" xml:space="preserve">
-    <value>a1e3gh4hhmhi2jogoxpl0cps4gjifz79uu6r7zv4mdtwql0i7z</value>
+    <value>null</value>
   </data>
   <data name="BotUserName" xml:space="preserve">
-    <value>kingabot</value>
+    <value>null</value>
   </data>
   <data name="ChannelName" xml:space="preserve">
-    <value>da_kingo</value>
+    <value>null</value>
   </data>
   <data name="ClientId" xml:space="preserve">
-    <value>gmhiptu15b3wf3hfwvh8f0pludqjzk</value>
+    <value>null</value>
   </data>
 </root>
